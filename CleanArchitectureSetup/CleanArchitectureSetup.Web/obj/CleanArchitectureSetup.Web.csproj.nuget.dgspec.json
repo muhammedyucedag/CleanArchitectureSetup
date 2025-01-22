@@ -4,6 +4,244 @@
     "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Web/CleanArchitectureSetup.Web.csproj": {}
   },
   "projects": {
+    "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Application/CleanArchitectureSetup.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Application/CleanArchitectureSetup.Application.csproj",
+        "projectName": "CleanArchitectureSetup.Application",
+        "projectPath": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Application/CleanArchitectureSetup.Application.csproj",
+        "packagesPath": "/Users/muhammedyucedag/.nuget/packages/",
+        "outputPath": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muhammedyucedag/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/CleanArchitectureSetup.Domain.csproj": {
+                "projectPath": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/CleanArchitectureSetup.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "TS.Result": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/CleanArchitectureSetup.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/CleanArchitectureSetup.Domain.csproj",
+        "projectName": "CleanArchitectureSetup.Domain",
+        "projectPath": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/CleanArchitectureSetup.Domain.csproj",
+        "packagesPath": "/Users/muhammedyucedag/.nuget/packages/",
+        "outputPath": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muhammedyucedag/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "TS.EntityFrameworkCore.GenericRepository": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Infrastructure/CleanArchitectureSetup.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Infrastructure/CleanArchitectureSetup.Infrastructure.csproj",
+        "projectName": "CleanArchitectureSetup.Infrastructure",
+        "projectPath": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Infrastructure/CleanArchitectureSetup.Infrastructure.csproj",
+        "packagesPath": "/Users/muhammedyucedag/.nuget/packages/",
+        "outputPath": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muhammedyucedag/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Application/CleanArchitectureSetup.Application.csproj": {
+                "projectPath": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Application/CleanArchitectureSetup.Application.csproj"
+              },
+              "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/CleanArchitectureSetup.Domain.csproj": {
+                "projectPath": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/CleanArchitectureSetup.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Web/CleanArchitectureSetup.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,10 +264,18 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Application/CleanArchitectureSetup.Application.csproj": {
+                "projectPath": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Application/CleanArchitectureSetup.Application.csproj"
+              },
+              "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Infrastructure/CleanArchitectureSetup.Infrastructure.csproj": {
+                "projectPath": "/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Infrastructure/CleanArchitectureSetup.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
+          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
@@ -44,6 +290,46 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,6 +342,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

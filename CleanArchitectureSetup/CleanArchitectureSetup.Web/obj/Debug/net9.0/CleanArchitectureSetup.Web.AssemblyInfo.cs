@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanArchitectureSetup.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+397483dc13146a12663cbd306df0ec857b77542a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e430e7196d1d972f83c851edf8d6625998102eb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanArchitectureSetup.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanArchitectureSetup.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,13 @@
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/bin/Debug/net9.0/CleanArchitectureSetup.Domain.deps.json
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/bin/Debug/net9.0/CleanArchitectureSetup.Domain.dll
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/bin/Debug/net9.0/CleanArchitectureSetup.Domain.pdb
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/obj/Debug/net9.0/CleanArchitectureSetup.Domain.csproj.AssemblyReference.cache
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/obj/Debug/net9.0/CleanArchitectureSetup.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/obj/Debug/net9.0/CleanArchitectureSetup.Domain.AssemblyInfoInputs.cache
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/obj/Debug/net9.0/CleanArchitectureSetup.Domain.AssemblyInfo.cs
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/obj/Debug/net9.0/CleanArchitectureSetup.Domain.csproj.CoreCompileInputs.cache
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/obj/Debug/net9.0/CleanArchitectureSetup.Domain.sourcelink.json
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/obj/Debug/net9.0/CleanArchitectureSetup.Domain.dll
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/obj/Debug/net9.0/refint/CleanArchitectureSetup.Domain.dll
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/obj/Debug/net9.0/CleanArchitectureSetup.Domain.pdb
+/Users/muhammedyucedag/Desktop/Project/CleanArchitectureSetup/CleanArchitectureSetup/CleanArchitectureSetup.Domain/obj/Debug/net9.0/ref/CleanArchitectureSetup.Domain.dll

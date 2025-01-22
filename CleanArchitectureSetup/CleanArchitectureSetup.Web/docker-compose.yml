@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    container_name: clean-architecture_postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: clean-architecture
+      POSTGRES_PASSWORD: e*ZyQ?t9.AY}Ss6Qw%
+      POSTGRES_DB: CleanArchitectureDb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: always
+
+volumes:
+  postgres_data:
