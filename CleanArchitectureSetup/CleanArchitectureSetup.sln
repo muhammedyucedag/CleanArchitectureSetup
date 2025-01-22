@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureSetup.Web", "CleanArchitectureSetup.Web\CleanArchitectureSetup.Web.csproj", "{B18D533A-AFA3-409F-9EBA-3BA965FD3982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A1315D74-D20A-4235-B159-EF601ABDD2D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{193D099C-8EB4-4A46-A52A-B684A1218AB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B18D533A-AFA3-409F-9EBA-3BA965FD3982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18D533A-AFA3-409F-9EBA-3BA965FD3982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18D533A-AFA3-409F-9EBA-3BA965FD3982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18D533A-AFA3-409F-9EBA-3BA965FD3982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B18D533A-AFA3-409F-9EBA-3BA965FD3982} = {A1315D74-D20A-4235-B159-EF601ABDD2D6}
+	EndGlobalSection
+EndGlobal
