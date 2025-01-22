@@ -15,7 +15,7 @@ Bu repoda, 2025 yılı için projelerimizde başlangıç olarak kullanabileceği
 ### Kullanılan Kütüphaneler
 - **MediatR**: CQRS ve mesajlaşma işlemleri için.
 - **TS.Result**: Standart sonuç modellemeleri için.
-- **Mapster**: Nesne eşlemeleri için.
+- **AutoMapper**: Nesne eşlemeleri için.
 - **FluentValidation**: Doğrulama işlemleri için.
 - **TS.EntityFrameworkCore.GenericRepository**: Genel amaçlı repository işlemleri için.
 - **EntityFrameworkCore**: ORM (Object-Relational Mapping) için.
